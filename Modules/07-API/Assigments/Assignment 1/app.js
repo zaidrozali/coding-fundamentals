@@ -2,7 +2,7 @@
 let quote = document.querySelector('#quote');
 let author = document.querySelector('#author');
 let generateButton = document.querySelector('#generate-button');
-let quoteAuthorSymbol = '-';
+let quoteAuthorSymbol = '-'; //This hyphen is used as a separator when displaying the quote and author's name together.
 const ENDPOINT = 'https://api.quotable.io/random';
 
 // Fetch quotes from API.
